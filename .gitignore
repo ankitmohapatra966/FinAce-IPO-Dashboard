@@ -1,0 +1,62 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+client/build/
+server/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+client/.env
+server/.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Tests and coverage
+coverage/
+client/coverage/
+server/coverage/
+*.lcov
+
+# Misc
+*.tgz
+.cache/
+.parcel-cache/
+
+# Optional: Next.js/React cache
+.next/
+.client/
+
+# Optional: Optional debug/profiling files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
